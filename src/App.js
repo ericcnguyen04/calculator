@@ -18,6 +18,9 @@ function App() {
             <div className='numbers'>
 
             </div>
+            <div className='operators'>
+
+            </div>
           </div>
         </div>
       </header>
