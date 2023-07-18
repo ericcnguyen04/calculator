@@ -13,7 +13,9 @@ function App() {
           <div className='screen'>
             69
           </div>
+          <div className='numbers'>
 
+          </div>
         </div>
       </header>
     </div>
