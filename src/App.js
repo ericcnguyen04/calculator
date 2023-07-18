@@ -8,8 +8,11 @@ function App() {
         <h1>
         Calculator
         </h1>
-        <div>
-carj tni
+        <div className='calculator'>
+          kljsdakjl
+          <div className='screen'>
+
+          </div>
         </div>
       </header>
     </div>
