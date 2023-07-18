@@ -13,8 +13,11 @@ function App() {
           <div className='screen'>
             69
           </div>
-          <div className='numbers'>
+          <div className='off-screen'>
 
+            <div className='numbers'>
+
+            </div>
           </div>
         </div>
       </header>
