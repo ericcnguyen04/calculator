@@ -9,10 +9,11 @@ function App() {
         Calculator
         </h1>
         <div className='calculator'>
-          kljsdakjl
+          kljsdakjllsdjglkjsglkajslkdnfklsfdlk
           <div className='screen'>
-
+            69
           </div>
+
         </div>
       </header>
     </div>
