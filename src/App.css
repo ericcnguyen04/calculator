@@ -41,6 +41,14 @@
   background-color: coral;
   height: 50px;
   border-radius: 100px;
+
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgb(255, 137, 95);
+  height: 50px;
+  border-radius: 100px;
 }
 
 .q0 {
