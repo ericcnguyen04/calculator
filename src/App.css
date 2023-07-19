@@ -29,3 +29,7 @@
 .offscreen {
   border: 2px solid orange;
 }
+
+.numbers {
+  border: 2px solid yellow;
+}
