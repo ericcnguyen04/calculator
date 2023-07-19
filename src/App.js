@@ -16,10 +16,10 @@ function App() {
           <div className='off-screen'>
 
             <div className='numbers'>
-
+              123789
             </div>
             <div className='operators'>
-
+              +-x/
             </div>
           </div>
         </div>

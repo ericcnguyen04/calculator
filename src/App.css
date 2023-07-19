@@ -25,3 +25,7 @@
   margin: 8px;
   height: 10vh;
 }
+
+.offscreen {
+  border: 2px solid orange;
+}
