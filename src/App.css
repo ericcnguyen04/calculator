@@ -30,7 +30,7 @@
   border: 2px solid orange;
 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .numbers {
