@@ -28,10 +28,17 @@
 
 .offscreen {
   border: 2px solid orange;
+
+  display: flex;
+  justify-content: start;
 }
 
 .numbers {
   border: 2px solid yellow;
+}
+
+.operators {
+  border: 2px solid green;
 }
 
 .operators {
