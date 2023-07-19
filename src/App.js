@@ -14,6 +14,10 @@ function App() {
             69
           </div>
           <div className='off-screen'>
+            <div className='AC'>AC</div>
+            <div className='+/-'>+/-</div>
+            <div className='%'>%</div>
+
             <div className='1'>1</div>
             <div className='2'>2</div>
             <div className='3'>3</div>
@@ -29,6 +33,7 @@ function App() {
             <div className='*'>*</div>
             <div className='/'>/</div>
             <div className='='>=</div>
+
           </div>
         </div>
       </header>
