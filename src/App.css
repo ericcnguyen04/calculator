@@ -26,11 +26,11 @@
   height: 10vh;
 }
 
-.offscreen {
+.off-screen {
   border: 2px solid orange;
 
   display: flex;
-  justify-content: start;
+  flex-direction: column;
 }
 
 .numbers {
