@@ -29,7 +29,7 @@
 .off-screen {
   border: 2px solid orange;
 
-  padding: 5px;
+  padding: 10px;
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -39,8 +39,12 @@
 
 .button {
   background-color: coral;
+  height: 50px;
+  border-radius: 100px;
 }
 
-.q1 {
+.q0 {
+  grid-column-start: 1;
+  grid-column-end: 3;
 
 }

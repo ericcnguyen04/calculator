@@ -40,7 +40,7 @@ function App() {
             <div className='q0 button'>0</div>
             <div className='q. button'>.</div>
             
-            <div className='q='>=</div>
+            <div className='q= button'>=</div>
           </div>
         </div>
       </header>
