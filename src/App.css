@@ -33,3 +33,7 @@
 .numbers {
   border: 2px solid yellow;
 }
+
+.operators {
+  border: 2px solid green;
+}
