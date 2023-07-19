@@ -29,8 +29,18 @@
 .off-screen {
   border: 2px solid orange;
 
-  display: flex;
-  flex-direction: row;
+  padding: 5px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 10px;
 }
 
+.button {
+  background-color: coral;
+}
 
+.q1 {
+
+}

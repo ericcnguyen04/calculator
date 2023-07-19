@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
@@ -14,26 +14,33 @@ function App() {
             69
           </div>
           <div className='off-screen'>
-            <div className='AC'>AC</div>
-            <div className='+/-'>+/-</div>
-            <div className='%'>%</div>
+            <div className='qAC button'>AC</div>
+            <div className='q+/- button'>+/-</div>
+            <div className='q% button'>%</div>
 
-            <div className='1'>1</div>
-            <div className='2'>2</div>
-            <div className='3'>3</div>
-            <div className='4'>4</div>
-            <div className='5'>5</div>
-            <div className='6'>6</div>
-            <div className='7'>7</div>
-            <div className='8'>8</div>
-            <div className='9'>9</div>
-            <div className='0'>0</div>
-            <div className='+'>+</div>
-            <div className='-'>-</div>
-            <div className='*'>*</div>
-            <div className='/'>/</div>
-            <div className='='>=</div>
+            <div className='q/ button'>/</div>
 
+            <div className='q1 button'>1</div>
+            <div className='q2 button'>2</div>
+            <div className='q3 button'>3</div>
+            
+            <div className='q* button'>*</div>
+            
+            <div className='q4 button'>4</div>
+            <div className='q5 button'>5</div>
+            <div className='q6 button'>6</div>
+            
+            <div className='q- button'>-</div>
+            
+            <div className='q7 button'>7</div>
+            <div className='q8 button'>8</div>
+            <div className='q9 button'>9</div>
+            <div className='q+ button'>+</div>
+
+            <div className='q0 button'>0</div>
+            <div className='q. button'>.</div>
+            
+            <div className='q='>=</div>
           </div>
         </div>
       </header>
