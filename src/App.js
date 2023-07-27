@@ -9,7 +9,7 @@ function App() {
         Calculator
         </h1>
         <div className='calculator'>
-          kljsdakjllsdjglkjsglkajslkdnfklsfdlk
+
           <div className='screen'>
             69
           </div>
