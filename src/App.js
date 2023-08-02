@@ -32,6 +32,12 @@ function App() {
     setShouldReset(false)
   }
 
+  // click operators
+
+  // math
+
+  // equal sign
+
   return (
     <div className="App">
       <header className="App-header">
