@@ -49,8 +49,12 @@ function App() {
     // obtain the two values
     const prev = parseFloat(previousValue)
     const current = parseFloat(screenValue)
-    
+
     // create a switch case of all operators
+    switch (operator) {
+      case "+":
+        setScreenValue(prev + current).toString()
+    }
 
   }
 
