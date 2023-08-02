@@ -37,6 +37,9 @@ function App() {
     if (operator) { // if there is an operator, it will automatically calculate
       handleMath() 
       // console.log('this si the answer')
+
+      // after calculation, set previous variable the same as current to create a chain calculation
+      setPreviousValue(screenValue)
     } 
     setOperator(op)
     setPreviousValue(screenValue)
