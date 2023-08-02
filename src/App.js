@@ -13,6 +13,7 @@ function App() {
 
 // === !! === !! === //
 
+  // click inputs
   const handleNumberClick = number => {
     if (screenValue === 0 || shouldReset) {
       // change value of display screen, put up on screen
@@ -22,6 +23,9 @@ function App() {
       setScreenValue(screenValue + number)
     }
   }
+
+  // clear inputs
+  
 
   return (
     <div className="App">
