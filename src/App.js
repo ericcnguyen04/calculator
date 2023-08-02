@@ -71,6 +71,9 @@ function App() {
         break
     }
 
+    // reset the operator and previous value after calculating
+    setOperator(null)
+    setPreviousValue(null)
   }
 
   // equal sign
