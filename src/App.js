@@ -7,7 +7,7 @@ function App() {
   const [screenValue, setScreenValue] = useState(0);
   // previous value that is not on screen
   const [previousValue, setPreviousValue] = useState(null)
-
+  // operator usage
   const [operator, setOperator] = useState(null);
   const [shouldReset, setShouldReset] = useState(false);
 
