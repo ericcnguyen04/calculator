@@ -25,7 +25,12 @@ function App() {
   }
 
   // clear inputs
-  
+  const handleClearCalculator = () => {
+    setScreenValue("0")
+    setPreviousValue("null")
+    setOperator(null)
+    setShouldReset(false)
+  }
 
   return (
     <div className="App">
@@ -39,7 +44,7 @@ function App() {
             {screenValue}
           </div>
           <div className='off-screen'>
-            <div className='qAC button'>AC</div>
+            <div className='qAC button' onClick={() => handleClearCalculator()}>AC</div>
             <div className='q+/- button'>+/-</div>
             <div className='q% button'>%</div>
 
