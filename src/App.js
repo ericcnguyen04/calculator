@@ -4,7 +4,7 @@ import './App.css';
 function App() {
 
   // screen
-  const [screenValue, setScreenValue] = useState("0");
+  const [screenValue, setScreenValue] = useState(0);
   // previous value that is not on screen
   const [previousValue, setPreviousValue] = useState(null)
 
