@@ -38,6 +38,8 @@ function App() {
 
   // equal sign
 
+  // make display negative
+
   return (
     <div className="App">
       <header className="App-header">
