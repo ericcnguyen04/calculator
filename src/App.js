@@ -54,6 +54,7 @@ function App() {
     switch (operator) {
       case "+":
         setScreenValue(prev + current).toString()
+        break
     }
 
   }
