@@ -11,6 +11,17 @@ function App() {
   const [operator, setOperator] = useState(null);
   const [shouldReset, setShouldReset] = useState(false);
 
+// === !! === !! === //
+
+  const handleNumberClick = number => {
+    if (screenValue === 0 || shouldReset) {
+      // change value of display screen, put up on screen
+      setScreenValue(String(number))
+      setShouldReset(false)
+    } else {
+      setScreenValue(screenValue + number)
+    }
+  }
 
   return (
     <div className="App">
