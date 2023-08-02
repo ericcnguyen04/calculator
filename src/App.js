@@ -33,6 +33,14 @@ function App() {
   }
 
   // click operators
+  const handleOperator = (op) => {
+    if (operator) { // if there is an operator, it will automatically calculate
+      calculateResult() 
+    } 
+    setPreviousValue(screenValue)
+    setOperator(op)
+    setShouldReset(true)
+  }
 
   // math
 
