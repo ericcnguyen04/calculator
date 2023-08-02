@@ -66,7 +66,7 @@ function App() {
             <div className='q+/- button'>+/-</div>
             <div className='q% button'>%</div>
 
-            <div className='q/ button'>/</div>
+            <div className='q/ button' onClick={() => handleOperator('/')}>/</div>
 
             <div className='q1 button' onClick={() => handleNumberClick(1)}>1</div>
             <div className='q2 button' onClick={() => handleNumberClick(2)}>2</div>
