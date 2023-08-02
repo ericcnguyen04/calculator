@@ -39,7 +39,8 @@ function App() {
     } 
     setPreviousValue(screenValue)
     setOperator(op)
-    setShouldReset(true)
+    setShouldReset(true) // allows input when screen value is not 0
+    console.log(op)
   }
 
   // math
