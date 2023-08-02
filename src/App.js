@@ -39,7 +39,7 @@ function App() {
       // console.log('this si the answer')
 
       // after calculation, set previous variable the same as current to create a chain calculation
-      setPreviousValue(screenValue)
+      // setPreviousValue(screenValue)
     } 
     setOperator(op)
     setPreviousValue(screenValue)
@@ -48,7 +48,7 @@ function App() {
   }
 
   // math
-  const handleMath = (op) => {
+  const handleMath = () => {
     // obtain the two values
     const prev = parseFloat(previousValue)
     const current = parseFloat(screenValue)
@@ -66,6 +66,8 @@ function App() {
         break
       case "/":
         setScreenValue(prev / current)
+        break
+      default:
         break
     }
 
