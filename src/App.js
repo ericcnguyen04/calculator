@@ -32,7 +32,7 @@ function App() {
         <div className='calculator'>
 
           <div className='screen'>
-            
+            {screenValue}
           </div>
           <div className='off-screen'>
             <div className='qAC button'>AC</div>
