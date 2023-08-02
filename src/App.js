@@ -26,7 +26,7 @@ function App() {
 
   // clear inputs
   const handleClearCalculator = () => {
-    setScreenValue("0")
+    setScreenValue(0)
     setPreviousValue("null")
     setOperator(null)
     setShouldReset(false)
@@ -68,7 +68,7 @@ function App() {
             <div className='q+ button'>+</div>
 
             <div className='q0 button' onClick={() => handleNumberClick(0)}>0</div>
-            <div className='q. button'>.</div>
+            <div className='q. button' onClick={() => handleNumberClick('.')}>.</div>
             
             <div className='q= button'>=</div>
           </div>
