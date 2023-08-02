@@ -1,7 +1,12 @@
-
+import React, {useState} from 'react';
 import './App.css';
 
 function App() {
+
+  const [screenValue, setScreenValue] = useState("0");
+
+
+
   return (
     <div className="App">
       <header className="App-header">
@@ -11,7 +16,7 @@ function App() {
         <div className='calculator'>
 
           <div className='screen'>
-            69
+            
           </div>
           <div className='off-screen'>
             <div className='qAC button'>AC</div>
