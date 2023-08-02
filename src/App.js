@@ -36,10 +36,10 @@ function App() {
   const handleOperator = (op) => {
     if (operator) { // if there is an operator, it will automatically calculate
       handleMath() 
-      console.log('this si the answer')
+      // console.log('this si the answer')
     } 
-    setPreviousValue(screenValue)
     setOperator(op)
+    setPreviousValue(screenValue)
     setShouldReset(true) // allows input when screen value is not 0
     console.log(op)
   }
@@ -55,6 +55,15 @@ function App() {
       case "+":
         setScreenValue(prev + current)
         break
+      case "-":
+        setScreenValue(prev - current)
+        break
+      case "*":
+        setScreenValue(prev * current)
+        break
+      case "/":
+        setScreenValue(prev / current)
+        break
     }
 
   }
@@ -63,6 +72,9 @@ function App() {
   const handleEqual = () => {
     // make the equation
     handleMath()
+
+    // be able to continue calculations when screen doesnt say 0
+    setShouldReset(true)
   }
 
   // make display negative
