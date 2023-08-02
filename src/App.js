@@ -45,11 +45,13 @@ function App() {
   }
 
   // math
-  const handleMath = (op) {
+  const handleMath = (op) => {
     // obtain the two values
-
-    // create a switch case of all operators
+    const prev = parseFloat(previousValue)
+    const current = parseFloat(screenValue)
     
+    // create a switch case of all operators
+
   }
 
   // equal sign
