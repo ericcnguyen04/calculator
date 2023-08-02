@@ -67,8 +67,7 @@ function App() {
       case "/":
         setScreenValue(prev / current)
         break
-      default:
-        break
+      
     }
 
   }
@@ -77,6 +76,10 @@ function App() {
   const handleEqual = () => {
     // make the equation
     handleMath()
+
+    // needed for consistent functionality
+    setOperator(op);
+    setPreviousValue(displayValue);
 
     // be able to continue calculations when screen doesnt say 0
     setShouldReset(true)
