@@ -105,7 +105,7 @@ function App() {
             <div className='q0 button' onClick={() => handleNumberClick(0)}>0</div>
             <div className='q. button' onClick={() => handleNumberClick('.')}>.</div>
             
-            <div className='q= button'>=</div>
+            <div className='q= button' onClick={() => handleEqual()}>=</div>
           </div>
         </div>
       </header>
