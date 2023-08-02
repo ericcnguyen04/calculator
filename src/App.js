@@ -35,7 +35,8 @@ function App() {
   // click operators
   const handleOperator = (op) => {
     if (operator) { // if there is an operator, it will automatically calculate
-      calculateResult() 
+      // calculateResult() 
+      console.log('this si the answer')
     } 
     setPreviousValue(screenValue)
     setOperator(op)
