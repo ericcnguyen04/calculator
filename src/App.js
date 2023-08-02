@@ -78,8 +78,8 @@ function App() {
     handleMath()
 
     // needed for consistent functionality
-    setOperator(op);
-    setPreviousValue(displayValue);
+    // setOperator(op);
+    // setPreviousValue(screenValue);
 
     // be able to continue calculations when screen doesnt say 0
     setShouldReset(true)
