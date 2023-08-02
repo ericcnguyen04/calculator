@@ -45,6 +45,12 @@ function App() {
   }
 
   // math
+  const handleMath = (op) {
+    // obtain the two values
+
+    // create a switch case of all operators
+    
+  }
 
   // equal sign
 
