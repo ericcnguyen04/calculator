@@ -67,7 +67,8 @@ function App() {
       case "/":
         setScreenValue(prev / current)
         break
-      
+      default:
+        break
     }
 
   }
