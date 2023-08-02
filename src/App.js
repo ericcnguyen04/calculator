@@ -53,13 +53,17 @@ function App() {
     // create a switch case of all operators
     switch (operator) {
       case "+":
-        setScreenValue(prev + current).toString()
+        setScreenValue(prev + current)
         break
     }
 
   }
 
   // equal sign
+  const handleEqual = () => {
+    // make the equation
+    handleMath()
+  }
 
   // make display negative
 
