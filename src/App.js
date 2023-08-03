@@ -14,7 +14,7 @@ function App() {
 // === !! === !! === //
 
   // click inputs
-  const handleNumberClick = number => {
+  const handleNumberClick = (number) => {
     if (screenValue === 0 || shouldReset) {
       // change value of display screen, put up on screen
       setScreenValue(String(number))
@@ -87,6 +87,10 @@ function App() {
 
     // be able to continue calculations when screen doesnt say 0
     setShouldReset(true)
+  }
+
+  const handlePercentage = () => {
+    // take the current value and place it into decimal
   }
 
   // make display negative
