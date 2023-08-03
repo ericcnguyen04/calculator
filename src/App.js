@@ -114,7 +114,7 @@ function App() {
           </div>
           <div className='off-screen'>
             <div className='qAC button' onClick={() => handleClearCalculator()}>AC</div>
-            <div className='q+/- button'>+/-</div>
+            <div className='q+/- button' onClick={() => handleMakeNegative()}>+/-</div>
             <div className='q% button' onClick={() => handlePercentage()}>%</div>
 
             <div className='q/ button' onClick={() => handleOperator('/')}>/</div>
