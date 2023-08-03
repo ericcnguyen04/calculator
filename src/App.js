@@ -91,6 +91,7 @@ function App() {
 
   const handlePercentage = () => {
     // take the current value and place it into decimal
+    setScreenValue(screenValue / 100)
   }
 
   // make display negative
@@ -109,7 +110,7 @@ function App() {
           <div className='off-screen'>
             <div className='qAC button' onClick={() => handleClearCalculator()}>AC</div>
             <div className='q+/- button'>+/-</div>
-            <div className='q% button'>%</div>
+            <div className='q% button' onClick={() => handlePercentage()}>%</div>
 
             <div className='q/ button' onClick={() => handleOperator('/')}>/</div>
 
