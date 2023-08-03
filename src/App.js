@@ -94,6 +94,11 @@ function App() {
     setScreenValue(screenValue / 100)
   }
 
+  const handleMakeNegative = () => {
+    // multiply by number by -1 to toggle negative
+    setScreenValue(screenValue * -1)
+  }
+
   // make display negative
 
   return (
