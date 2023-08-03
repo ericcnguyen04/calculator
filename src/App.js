@@ -83,7 +83,7 @@ function App() {
 
     // needed for consistent functionality
     // setOperator(op);
-    // setPreviousValue(screenValue);
+    setPreviousValue(screenValue);
 
     // be able to continue calculations when screen doesnt say 0
     setShouldReset(true)
