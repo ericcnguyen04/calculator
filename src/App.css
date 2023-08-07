@@ -14,7 +14,7 @@
 }
 
 .calculator {
-  border: 2px solid red;
+  border: 2px solid rgb(0, 0, 0);
 
   height:45vh;
   width: 400px;
@@ -25,17 +25,23 @@
 }
 
 .screen {
-  border: 2px solid red;
+  border: 2px solid rgb(78, 76, 76);
 
   margin: 8px;
-  height: 10vh;
+  margin-bottom: 15px;
+  height: 8vh;
+  padding-right: 2rem;
+
+
+  text-align: right;
+ font-size: 55px;
 }
 
 .off-screen {
-  border: 2px solid orange;
+  /* border: 2px solid orange; */
 
   padding: 10px;
-  margin: 8px;
+  /* margin: 8px; */
 
   display: grid;
   grid-template-columns: repeat(4, 1fr);
