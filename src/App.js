@@ -11,7 +11,7 @@ function App() {
   const [operator, setOperator] = useState(null);
   const [shouldReset, setShouldReset] = useState(false);
 
-// === !! === !! === //
+// === !! === !! === // //
 
   // click inputs
   const handleNumberClick = (number) => {
