@@ -15,6 +15,7 @@
 
 .calculator {
   border: 2px solid rgb(0, 0, 0);
+  background-color: burlywood;
 
   height:45vh;
   width: 400px;
@@ -39,6 +40,7 @@
 
 .off-screen {
   /* border: 2px solid orange; */
+  
 
   padding: 10px;
   /* margin: 8px; */
@@ -50,6 +52,7 @@
 }
 
 .button {
+  border: 2px solid rgb(78, 76, 76);
   background-color: coral;
   height: 50px;
   border-radius: 100px;
